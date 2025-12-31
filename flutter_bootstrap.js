@@ -6,7 +6,7 @@ Read more: https://developer.mozilla.org/en-US/docs/Web/Security/Secure_Contexts
 if (!window._flutter) {
   window._flutter = {};
 }
-_flutter.buildConfig = {"engineRevision":"a18df97ca57a249df5d8d68cd0820600223ce262","builds":[{"compileTarget":"dart2js","renderer":"canvaskit","mainJsPath":"main.dart.js"}]};
+_flutter.buildConfig = {"engineRevision":"db49896cf25ceabc44096d5f088d86414e05a7aa","builds":[{"compileTarget":"dart2js","renderer":"canvaskit","mainJsPath":"main.dart.js"}]};
 
 
 var loading = document.querySelector('#loading');
@@ -15,7 +15,7 @@ _flutter.loader.load({
         renderer: webRenderer
     },
     serviceWorkerSettings: {
-        serviceWorkerVersion: "3602951558",
+        serviceWorkerVersion: "2290427383",
     },
     onEntrypointLoaded: async function (engineInitializer) {
         loading.classList.add('main_done');
